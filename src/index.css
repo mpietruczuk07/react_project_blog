@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+.categories-dropdown,
+.authors-dropdown {
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+  border-color: #bdbdbd;
+  color: #868686;
+  padding-left: 8px;
+}
+
+.categoryErrorMsg, .authorErrorMsg {
+  text-align: left;
+  font-size: 14px;
+  color: red;
+}
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h1::before,
+h1::after {
+  background-color: black;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.searchForm {
+  margin: auto;
+  padding: 15px;
+  max-width: 550px;
+  align-content: center;
+}
+
+.latest-title {
+  color: black;
+  font-weight: 600;
+  font-family: monospace;
+}

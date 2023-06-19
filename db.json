@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "title": "Post 1",
+      "author": "Jakub",
+      "category": "Cat1",
+      "date": "2023-01-29",
+      "imageUrl": "https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg",
+      "content": "Post testowy nr 1",
+      "id": 1
+    },
+    {
+      "title": "Post 2",
+      "author": "Marysia",
+      "category": "Cat6",
+      "date": "2023-01-25",
+      "imageUrl": "http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ5sX538vpRSulChMYF2y9aUET426aJ_716bQ6SRd4Z1c0Gy8ByLkALE3viLusd6QRhtRToVB71Hte2wy2X5s0",
+      "content": "Post testowy nr 2",
+      "id": 2
+    },
+    {
+      "title": "Post 4",
+      "author": "Jakub",
+      "category": "Cat4",
+      "date": "2023-01-29",
+      "imageUrl": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Urus/4418/Lamborghini-Urus-V8/1621927166506/front-left-side-47.jpg",
+      "content": "Post testowy nr 4",
+      "id": 4
+    },
+    {
+      "title": "Post 5",
+      "author": "Marysia",
+      "category": "Cat3",
+      "date": "2023-01-25",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg",
+      "content": "Post testowy nr 5",
+      "id": 5
+    },
+    {
+      "title": "Post 6",
+      "author": "Mateusz",
+      "category": "Cat2",
+      "date": "2023-01-27",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/best-pc-games-horizon-zero-dawn.jpg?q=h_2160,w_3840,x_0,y_0",
+      "content": "Post testowy nr 6",
+      "id": 6
+    },
+    {
+      "title": "Tytuł testowy",
+      "author": "Marysia",
+      "category": "Cat1",
+      "date": "2023-01-27",
+      "imageUrl": "https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg",
+      "content": "jakiś tekst",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "Mateusz",
+      "username": "Mateusz1",
+      "email": "test@test.test",
+      "password": "12345678",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "name": "Mateusz",
+      "username": "mati",
+      "email": "test@test.test",
+      "password": "12345678",
+      "role": "user",
+      "id": 2
+    }
+  ]
+}
